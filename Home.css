@@ -1,0 +1,100 @@
+/* Home.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px; /* Adjust size here to reduce the logo size */
+    height: auto;
+    margin-right: 30px; /* Adds some space between the logo and the links */
+  }
+  
+  .home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('C:\Users\sarojadevip\Desktop\JFSD\handloom.jpg') center/cover no-repeat; /* Update this path */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-content {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-content blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #ddd;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #f5a623;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #e5941a;
+  }
+  

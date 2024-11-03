@@ -1,0 +1,38 @@
+/* AboutUs.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importing a different font */
+
+.aboutus-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px; /* Increased padding for more space */
+  font-family: 'Roboto', sans-serif; /* Apply the imported font */
+}
+
+.aboutus-content {
+  flex: 1;
+  padding-right: 20px; /* Space between text and image */
+}
+
+.aboutus-content h1 {
+  font-size: 2.5rem; /* Increased font size for the heading */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.aboutus-content p {
+  font-size: 1.2rem; /* Increased font size for the paragraph */
+  line-height: 1.6; /* Improved line spacing for readability */
+}
+
+.aboutus-image {
+  flex: 1;
+}
+
+.about-image {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 15px; /* Curved edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
